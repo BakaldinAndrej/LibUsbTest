@@ -1,0 +1,81 @@
+Init Successful!
+[timestamp] [threadID] facility level [function call] <message>
+--------------------------------------------------------------------------------
+[ 2.311898] [00003a98] libusb: debug [libusb_get_device_list]
+[ 2.315842] [0000340c] libusb: debug [windows_iocp_thread] I/O completion thread started
+[ 2.333242] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [49]
+[ 2.333439] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [4A]
+[ 2.333583] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [4B]
+[ 2.333710] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [4C]
+[ 2.334011] [00003a98] libusb: debug [get_api_type] driver(s): libusb0
+[ 2.334111] [00003a98] libusb: debug [get_api_type] matched driver name against libusb0
+[ 2.334169] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [D]
+[ 2.334438] [00003a98] libusb: debug [get_api_type] driver(s): RTSUER
+[ 2.334535] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [1B]
+[ 2.334903] [00003a98] libusb: debug [get_api_type] driver(s): WinUSB
+[ 2.336797] [00003a98] libusb: debug [get_api_type] matched driver name against WinUSB
+[ 2.336890] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [33]
+[ 2.337306] [00003a98] libusb: debug [get_api_type] driver(s): usbccgp
+[ 2.337507] [00003a98] libusb: debug [get_api_type] matched driver name against Composite API
+[ 2.337592] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [34]
+[ 2.337959] [00003a98] libusb: debug [get_api_type] driver(s): HidUsb
+[ 2.338107] [00003a98] libusb: debug [get_api_type] matched driver name against HID API
+[ 2.338177] [00003a98] libusb: debug [winusb_get_device_list] allocating new device for session [35]
+[ 2.338509] [00003a98] libusb: debug [enumerate_hcd_root_hub] assigning HCD 'PCI\VEN_8086&DEV_1C2D&SUBSYS_397517AA&REV_05\3&11583659&0&D0' bus number 1
+[ 2.338714] [00003a98] libusb: debug [enumerate_hcd_root_hub] assigning HCD 'PCI\VEN_8086&DEV_1C26&SUBSYS_397517AA&REV_05\3&11583659&0&E8' bus number 2
+[ 2.339959] [00003a98] libusb: debug [winusb_get_device_list] found existing device for session [1B]
+[ 2.443245] [00003a98] libusb: debug [init_device] found 1 configurations (current config: 1)
+[ 2.457999] [00003a98] libusb: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 39 bytes)
+[ 2.460216] [00003a98] libusb: debug [init_device] (bus: 1, addr: 1, depth: 2, port: 4): 'USB\VID_0BDA&PID_0139\20100201396000000'
+[ 2.462567] [00003a98] libusb: debug [winusb_get_device_list] extra GUID: {DBCE1CD9-A320-4B51-A365-A0C3F3C5FB29}
+[ 2.462699] [00003a98] libusb: debug [winusb_get_device_list] found existing device for session [33]
+[ 2.462887] [00003a98] libusb: debug [init_device] found 1 configurations (current config: 1)
+[ 2.463455] [00003a98] libusb: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 39 bytes)
+[ 2.463566] [00003a98] libusb: debug [init_device] (bus: 2, addr: 1, depth: 2, port: 2): 'USB\VID_0483&PID_3748\6&4817B6D&0&2'
+[ 2.463961] [00003a98] libusb: debug [init_root_hub] root hub 'USB\ROOT_HUB20\4&11F77F7&0' reports 2 ports
+[ 2.464066] [00003a98] libusb: debug [init_device] (bus: 1, addr: 0, depth: 0, port: 0): 'USB\ROOT_HUB20\4&11F77F7&0'
+[ 2.464299] [00003a98] libusb: debug [winusb_get_device_list] found existing device for session [49]
+[ 2.464416] [00003a98] libusb: debug [init_device] found 1 configurations (current config: 1)
+[ 2.464701] [00003a98] libusb: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 25 bytes)
+[ 2.464771] [00003a98] libusb: debug [init_device] (bus: 2, addr: 2, depth: 1, port: 1): 'USB\VID_8087&PID_0024\5&88B8ABA&0&1'
+[ 2.464950] [00003a98] libusb: debug [winusb_get_device_list] found existing device for session [4A]
+[ 2.465055] [00003a98] libusb: debug [init_device] found 1 configurations (current config: 1)
+[ 2.465319] [00003a98] libusb: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 25 bytes)
+[ 2.465408] [00003a98] libusb: debug [init_device] (bus: 1, addr: 2, depth: 1, port: 1): 'USB\VID_8087&PID_0024\5&55D1EEC&0&1'
+[ 2.466971] [00003a98] libusb: debug [winusb_get_device_list] found existing device for session [35]
+[ 2.467938] [00003a98] libusb: debug [init_device] found 1 configurations (current config: 1)
+[ 2.470487] [00003a98] libusb: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 34 bytes)
+[ 2.484057] [00003a98] libusb: debug [init_device] (bus: 2, addr: 4, depth: 2, port: 4): 'USB\VID_0000&PID_3825\6&4817B6D&0&4'
+[ 2.486304] [00003a98] libusb: debug [winusb_get_device_list] found existing device for session [D]
+[ 2.491783] [00003a98] libusb: debug [init_device] found 1 configurations (current config: 1)
+[ 2.505597] [00003a98] libusb: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 32 bytes)
+[ 2.510444] [00003a98] libusb: debug [init_device] (bus: 2, addr: 5, depth: 2, port: 3): 'USB\VID_0483&PID_5740\00000000001A'
+[ 2.511783] [00003a98] libusb: debug [winusb_get_device_list] found existing device for session [34]
+[ 2.513470] [00003a98] libusb: debug [init_device] found 1 configurations (current config: 1)
+[ 2.515976] [00003a98] libusb: debug [cache_config_descriptors] cached config descriptor 0 (bConfigurationValue=1, 387 bytes)
+[ 2.516439] [00003a98] libusb: debug [init_device] (bus: 2, addr: 3, depth: 2, port: 6): 'USB\VID_04F2&PID_B272\6&4817B6D&0&6'
+[ 2.521925] [00003a98] libusb: debug [init_root_hub] root hub 'USB\ROOT_HUB20\4&62BF53D&0' reports 2 ports
+[ 2.524052] [00003a98] libusb: debug [init_device] (bus: 2, addr: 0, depth: 0, port: 0): 'USB\ROOT_HUB20\4&62BF53D&0'
+[ 2.524701] [00003a98] libusb: debug [discovered_devs_append] need to increase capacity
+[ 2.537609] [00003a98] libusb: debug [winusb_get_device_list] setting HID interface for [35]:
+[ 2.539287] [00003a98] libusb: debug [set_hid_interface] interface[0] = \\?\HID#VID_0000&PID_3825#7&129B6D81&0&0000#{4D1E55B2-F16F-11CF-88CB-001111000030}
+[ 2.540872] [00003a98] libusb: debug [get_api_type] driver(s): WinUSB
+[ 2.543863] [00003a98] libusb: debug [get_api_type] matched driver name against WinUSB
+[ 2.545951] [00003a98] libusb: debug [libusb_get_device_descriptor]
+[ 2.546074] [00003a98] libusb: debug [libusb_get_device_descriptor]
+[ 2.546716] [00003a98] libusb: debug [libusb_get_device_descriptor]
+[ 2.547384] [00003a98] libusb: debug [libusb_get_device_descriptor]
+[ 2.547889] [00003a98] libusb: debug [libusb_get_device_descriptor]
+[ 2.548452] [00003a98] libusb: debug [libusb_get_device_descriptor]
+[ 2.549024] [00003a98] libusb: debug [libusb_get_device_descriptor]
+[ 2.549602] [00003a98] libusb: debug [libusb_open] open 2.5
+[ 2.550196] [00003a98] libusb: debug [libusb_open] open 2.5 returns -3
+[ 2.550730] [00003a98] libusb: debug [libusb_unref_device] destroy device 1.1
+[ 2.551470] [00003a98] libusb: debug [libusb_unref_device] destroy device 2.1
+[ 2.552143] [00003a98] libusb: debug [libusb_unref_device] destroy device 1.2
+[ 2.552849] [00003a98] libusb: debug [libusb_unref_device] destroy device 1.0
+[ 2.557105] [00003a98] libusb: debug [libusb_unref_device] destroy device 2.4
+[ 2.557776] [00003a98] libusb: debug [libusb_unref_device] destroy device 2.5
+[ 2.558446] [00003a98] libusb: debug [libusb_unref_device] destroy device 2.3
+[ 2.559138] [00003a98] libusb: debug [libusb_unref_device] destroy device 2.2
+[ 2.560802] [00003a98] libusb: debug [libusb_unref_device] destroy device 2.0
